@@ -1,0 +1,21 @@
+1. title
+2. describition
+3. object types (classes)
+
+
+Title: Bill Flatmates
+
+Description: App that takes amount of bill for particular perdiod and amount of days that each flatmate spend in house during that period
+returns: how much each flatmate has to pay. generates pdf with name, period and amount of payment
+objects: Bill:
+                amount
+                period
+
+         Flatmates:
+                name
+                days_in_house
+                pays(bill)
+
+         PdfReport:
+            filename
+            save(flatmate1,flatmate2,bill)
